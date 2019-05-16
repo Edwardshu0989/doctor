@@ -1,0 +1,10 @@
+[db]
+server      ="127.0.0.1"
+dbname      ="doctor"
+user        ="root"
+password    ="root"
+[rediss]
+maxIdle     =10
+maxActive   =20
+host        ="127.0.0.1:6379"
+dg          ="news"
